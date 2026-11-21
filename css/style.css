@@ -1,11 +1,3 @@
-
-/* General Styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f4f7;
@@ -13,7 +5,6 @@ body {
     line-height: 1.6;
 }
 
-/* Main Container */
 .container {
     width: 80%;
     max-width: 800px;
@@ -24,19 +15,16 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Center Text */
 .text-center {
     text-align: center;
 }
 
-/* Main Heading */
 h1 {
     color: #800000;
     margin-bottom: 25px;
     font-size: 32px;
 }
 
-/* Biography Section */
 .container div {
     margin-bottom: 30px;
 }
@@ -45,14 +33,12 @@ p {
     margin-bottom: 15px;
 }
 
-/* Section Titles */
 .container div > p:first-child {
     font-size: 22px;
     font-weight: bold;
     color: #800000;
 }
 
-/* Biography Description */
 .container div > p:nth-child(2) {
     font-size: 16px;
     color: #555;
@@ -60,7 +46,6 @@ p {
     line-height: 1.8;
 }
 
-/* Hobbies List */
 .list {
     list-style: none;
     margin-top: 15px;
@@ -75,32 +60,12 @@ p {
     transition: 0.3s;
 }
 
-/* Hover Effect */
 .list li:hover {
     background-color: #800000;
     color: white;
     transform: translateY(-3px);
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    .container {
-        width: 92%;
-        padding: 20px;
-        margin: 25px auto;
-    }
-
-    h1 {
-        font-size: 25px;
-    }
-
-    .container div > p:nth-child(2) {
-        font-size: 14px;
-    }
-}
-
-
-/* Social Media Buttons */
 .social-links {
     text-align: center;
     margin-top: 30px;
@@ -124,22 +89,18 @@ p {
     transition: 0.3s;
 }
 
-/* Facebook */
 .fb {
     background-color: #1877F2;
 }
 
-/* Instagram */
 .ig {
     background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
 
-/* TikTok */
 .tiktok {
     background-color: #000000;
 }
 
-/* Hover Effects */
 .social-links a:hover {
     transform: translateY(-4px);
     opacity: 0.8;
